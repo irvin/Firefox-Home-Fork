@@ -1361,10 +1361,8 @@
 				37A682B210E148BC008005DC /* TapActionController.m */,
 				F8454510128B019F006A8302 /* EasySetupViewController.h */,
 				F8454511128B019F006A8302 /* EasySetupViewController.m */,
-				F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */,
 				F8F8D84D1292FD0C00DED5CE /* ManualSetupViewController.h */,
 				F8F8D84E1292FD0C00DED5CE /* ManualSetupViewController.m */,
-				F8CD9D0A12A5705100CB1A2B /* ManualSetupViewController.xib */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -1444,6 +1442,8 @@
 		37CEC7DB1214B563001F5DB3 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				F8CD9D0A12A5705100CB1A2B /* ManualSetupViewController.xib */,
+				F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */,
 				E691FF96121B53B800C82F9F /* AboutScreen.xib */,
 				E691FF7F121B52BF00C82F9F /* AccountHelp.xib */,
 				37CEC8131214B672001F5DB3 /* AuthDialog.xib */,
@@ -2934,6 +2934,7 @@
 				F8CD9D1C12A5705100CB1A2B /* zh-Hant */,
 			);
 			name = ManualSetupViewController.xib;
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 		F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */ = {
@@ -2959,6 +2960,7 @@
 				F8CD9D3012A5706B00CB1A2B /* zh-Hans */,
 			);
 			name = EasySetupViewController.xib;
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
