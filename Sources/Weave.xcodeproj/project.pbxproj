@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -69,6 +69,156 @@
 		4AFBD47A108BC68500C4FD32 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */; };
 		4AFBD47C108BC68A00C4FD32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */; };
 		4AFBD480108BC68F00C4FD32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */; };
+		AA52A4BB1429A574004B920D /* ffhomeDB.sq3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD420108BC64E00C4FD32 /* ffhomeDB.sq3 */; };
+		AA52A4BC1429A574004B920D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD422108BC65500C4FD32 /* Entitlements.plist */; };
+		AA52A4BD1429A574004B920D /* NetworkPaths.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A275D8D10925B740021DCB4 /* NetworkPaths.plist */; };
+		AA52A4BE1429A574004B920D /* IFUnicodeURL-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37868D9A11DAC54800A8E3D0 /* IFUnicodeURL-LICENSE.txt */; };
+		AA52A4BF1429A574004B920D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37868D9D11DAC54800A8E3D0 /* README.txt */; };
+		AA52A4C01429A574004B920D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E691FF68121B4F8C00C82F9F /* Localizable.strings */; };
+		AA52A4CC1429A574004B920D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F801888E127115AA00215F00 /* Settings.bundle */; };
+		AA52A4CD1429A574004B920D /* Action.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D0E127234DE00215F00 /* Action.png */; };
+		AA52A4CE1429A574004B920D /* backward.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D0F127234DE00215F00 /* backward.png */; };
+		AA52A4CF1429A574004B920D /* backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D10127234DE00215F00 /* backward@2x.png */; };
+		AA52A4D01429A574004B920D /* blue-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D13127234DE00215F00 /* blue-bar.png */; };
+		AA52A4D11429A574004B920D /* blue-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D14127234DE00215F00 /* blue-bar@2x.png */; };
+		AA52A4D21429A574004B920D /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D15127234DE00215F00 /* bookmark.png */; };
+		AA52A4D31429A574004B920D /* bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D16127234DE00215F00 /* bookmark@2x.png */; };
+		AA52A4D41429A574004B920D /* bookmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D17127234DE00215F00 /* bookmarks.png */; };
+		AA52A4D51429A574004B920D /* bookmarks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D18127234DE00215F00 /* bookmarks@2x.png */; };
+		AA52A4D61429A574004B920D /* button-done-default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D19127234DE00215F00 /* button-done-default.png */; };
+		AA52A4D71429A574004B920D /* button-done-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1A127234DE00215F00 /* button-done-default@2x.png */; };
+		AA52A4D81429A574004B920D /* button-done-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1B127234DE00215F00 /* button-done-pressed.png */; };
+		AA52A4D91429A574004B920D /* button-done-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1C127234DE00215F00 /* button-done-pressed@2x.png */; };
+		AA52A4DA1429A574004B920D /* button-large-default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1D127234DE00215F00 /* button-large-default.png */; };
+		AA52A4DB1429A574004B920D /* button-large-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1E127234DE00215F00 /* button-large-default@2x.png */; };
+		AA52A4DC1429A574004B920D /* button-large-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D1F127234DE00215F00 /* button-large-pressed.png */; };
+		AA52A4DD1429A574004B920D /* button-large-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D20127234DE00215F00 /* button-large-pressed@2x.png */; };
+		AA52A4DE1429A574004B920D /* button-medium-default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D21127234DE00215F00 /* button-medium-default.png */; };
+		AA52A4DF1429A574004B920D /* button-medium-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D22127234DE00215F00 /* button-medium-default@2x.png */; };
+		AA52A4E01429A574004B920D /* button-medium-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D23127234DE00215F00 /* button-medium-pressed.png */; };
+		AA52A4E11429A574004B920D /* button-medium-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D24127234DE00215F00 /* button-medium-pressed@2x.png */; };
+		AA52A4E21429A574004B920D /* button-small-default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D25127234DE00215F00 /* button-small-default.png */; };
+		AA52A4E31429A574004B920D /* button-small-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D26127234DE00215F00 /* button-small-default@2x.png */; };
+		AA52A4E41429A574004B920D /* button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D27127234DE00215F00 /* button-small-pressed.png */; };
+		AA52A4E51429A574004B920D /* button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D28127234DE00215F00 /* button-small-pressed@2x.png */; };
+		AA52A4E61429A574004B920D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D29127234DE00215F00 /* Default.png */; };
+		AA52A4E71429A574004B920D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2A127234DE00215F00 /* Default@2x.png */; };
+		AA52A4E81429A574004B920D /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2B127234DE00215F00 /* folder.png */; };
+		AA52A4E91429A574004B920D /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2C127234DE00215F00 /* folder@2x.png */; };
+		AA52A4EA1429A574004B920D /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2D127234DE00215F00 /* forward.png */; };
+		AA52A4EB1429A574004B920D /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2E127234DE00215F00 /* forward@2x.png */; };
+		AA52A4EC1429A574004B920D /* goto.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D2F127234DE00215F00 /* goto.png */; };
+		AA52A4ED1429A574004B920D /* goto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D30127234DE00215F00 /* goto@2x.png */; };
+		AA52A4EE1429A574004B920D /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D31127234DE00215F00 /* header.png */; };
+		AA52A4EF1429A574004B920D /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D32127234DE00215F00 /* history.png */; };
+		AA52A4F01429A574004B920D /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D33127234DE00215F00 /* history@2x.png */; };
+		AA52A4F11429A574004B920D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D34127234DE00215F00 /* Icon.png */; };
+		AA52A4F21429A574004B920D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D37127234DE00215F00 /* logo.png */; };
+		AA52A4F31429A574004B920D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D38127234DE00215F00 /* logo@2x.png */; };
+		AA52A4F41429A574004B920D /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D39127234DE00215F00 /* reload.png */; };
+		AA52A4F51429A574004B920D /* reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D3A127234DE00215F00 /* reload@2x.png */; };
+		AA52A4F61429A574004B920D /* settings-screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D3B127234DE00215F00 /* settings-screen@2x.png */; };
+		AA52A4F71429A574004B920D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D3C127234DE00215F00 /* settings.png */; };
+		AA52A4F81429A574004B920D /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D3D127234DE00215F00 /* settings@2x.png */; };
+		AA52A4F91429A574004B920D /* short_header.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D40127234DE00215F00 /* short_header.png */; };
+		AA52A4FA1429A574004B920D /* SpinnerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D41127234DE00215F00 /* SpinnerBackground.png */; };
+		AA52A4FB1429A574004B920D /* SpinnerBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D42127234DE00215F00 /* SpinnerBackground@2x.png */; };
+		AA52A4FC1429A574004B920D /* srchSpinBG.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D43127234DE00215F00 /* srchSpinBG.png */; };
+		AA52A4FD1429A574004B920D /* tab.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D44127234DE00215F00 /* tab.png */; };
+		AA52A4FE1429A574004B920D /* tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D45127234DE00215F00 /* tab@2x.png */; };
+		AA52A4FF1429A574004B920D /* Tabs.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D46127234DE00215F00 /* Tabs.png */; };
+		AA52A5001429A574004B920D /* Tabs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D47127234DE00215F00 /* Tabs@2x.png */; };
+		AA52A5011429A574004B920D /* wordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D4A127234DE00215F00 /* wordmark.png */; };
+		AA52A5021429A574004B920D /* wordmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D4B127234DE00215F00 /* wordmark@2x.png */; };
+		AA52A5031429A574004B920D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D8C1272360F00215F00 /* Icon@2x.png */; };
+		AA52A5041429A574004B920D /* button-stop-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D961272379600215F00 /* button-stop-pressed.png */; };
+		AA52A5051429A574004B920D /* button-stop-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D971272379600215F00 /* button-stop-pressed@2x.png */; };
+		AA52A5061429A574004B920D /* button-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D981272379600215F00 /* button-stop.png */; };
+		AA52A5071429A574004B920D /* button-stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018D991272379600215F00 /* button-stop@2x.png */; };
+		AA52A5081429A574004B920D /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018E5C12725C6F00215F00 /* Background.png */; };
+		AA52A5091429A574004B920D /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8018E5D12725C6F00215F00 /* Background@2x.png */; };
+		AA52A50D1429A574004B920D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		AA52A50E1429A574004B920D /* CryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC15B10D82BEA0010D3C9 /* CryptoUtils.m */; };
+		AA52A50F1429A574004B920D /* Fetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC15D10D82BEA0010D3C9 /* Fetcher.m */; };
+		AA52A5101429A574004B920D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16110D82BEA0010D3C9 /* NSObject+SBJSON.m */; };
+		AA52A5111429A574004B920D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16310D82BEA0010D3C9 /* NSString+SBJSON.m */; };
+		AA52A5121429A574004B920D /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16510D82BEA0010D3C9 /* SBJSON.m */; };
+		AA52A5131429A574004B920D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16710D82BEA0010D3C9 /* SBJsonBase.m */; };
+		AA52A5141429A574004B920D /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16910D82BEA0010D3C9 /* SBJsonParser.m */; };
+		AA52A5151429A574004B920D /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC16B10D82BEA0010D3C9 /* SBJsonWriter.m */; };
+		AA52A5161429A574004B920D /* Stockboy.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC17110D82BEA0010D3C9 /* Stockboy.m */; };
+		AA52A5171429A574004B920D /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC17310D82BEA0010D3C9 /* Store.m */; };
+		AA52A5181429A574004B920D /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FC17510D82BEA0010D3C9 /* Utility.m */; };
+		AA52A5191429A574004B920D /* SearchResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978410D82DD800F28263 /* SearchResultsController.m */; };
+		AA52A51A1429A574004B920D /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978710D82DD800F28263 /* SettingsController.m */; };
+		AA52A51B1429A574004B920D /* TabBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978A10D82DD800F28263 /* TabBrowserController.m */; };
+		AA52A51C1429A574004B920D /* WeaveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978E10D82DD800F28263 /* WeaveAppDelegate.m */; };
+		AA52A51D1429A574004B920D /* WebPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715979010D82DD800F28263 /* WebPageController.m */; };
+		AA52A51E1429A574004B920D /* TapActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A682B210E148BC008005DC /* TapActionController.m */; };
+		AA52A51F1429A574004B920D /* LogoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752329E11470C6D00D7D83D /* LogoutController.m */; };
+		AA52A5201429A574004B920D /* BookmarkNav.m in Sources */ = {isa = PBXBuildFile; fileRef = E680B5871166B7F5007B52C1 /* BookmarkNav.m */; };
+		AA52A5211429A574004B920D /* BookmarkPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ED0D381167188700E04CAE /* BookmarkPage.m */; };
+		AA52A5221429A574004B920D /* WelcomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F3FFC11A5F7A80094450B /* WelcomePage.m */; };
+		AA52A5231429A574004B920D /* AccountHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E983C11A70F4500B56879 /* AccountHelp.m */; };
+		AA52A5241429A574004B920D /* AuthDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E67B8E4F11C83F5E00A31688 /* AuthDialog.m */; };
+		AA52A5251429A574004B920D /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E65DB0D811CAF5C500FBF52E /* KeychainItemWrapper.m */; };
+		AA52A5261429A574004B920D /* AboutScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8731511D3D5FE0004292A /* AboutScreen.m */; };
+		AA52A5271429A574004B920D /* nameprep.c in Sources */ = {isa = PBXBuildFile; fileRef = 37868D8111DAC54800A8E3D0 /* nameprep.c */; };
+		AA52A5281429A574004B920D /* puny.c in Sources */ = {isa = PBXBuildFile; fileRef = 37868D8311DAC54800A8E3D0 /* puny.c */; };
+		AA52A5291429A574004B920D /* race.c in Sources */ = {isa = PBXBuildFile; fileRef = 37868D8511DAC54800A8E3D0 /* race.c */; };
+		AA52A52A1429A574004B920D /* toxxx.c in Sources */ = {isa = PBXBuildFile; fileRef = 37868D9411DAC54800A8E3D0 /* toxxx.c */; };
+		AA52A52B1429A574004B920D /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 37868D9611DAC54800A8E3D0 /* util.c */; };
+		AA52A52C1429A574004B920D /* NSURL+IFUnicodeURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 37868D9C11DAC54800A8E3D0 /* NSURL+IFUnicodeURL.m */; };
+		AA52A52D1429A574004B920D /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9121281AFAA00948A57 /* ASIHTTPRequest.m */; };
+		AA52A52E1429A574004B920D /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9161281AFAA00948A57 /* ASIInputStream.m */; };
+		AA52A52F1429A574004B920D /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9181281AFAA00948A57 /* ASINetworkQueue.m */; };
+		AA52A5301429A574004B920D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9511281AFAA00948A57 /* Reachability.m */; };
+		AA52A5311429A574004B920D /* JPAKEClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9B41281AFAA00948A57 /* JPAKEClient.m */; };
+		AA52A5321429A574004B920D /* JPAKEParty.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9B61281AFAA00948A57 /* JPAKEParty.m */; };
+		AA52A5331429A574004B920D /* JPAKEReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9B81281AFAA00948A57 /* JPAKEReporter.m */; };
+		AA52A5341429A574004B920D /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EEC181281B1CC00948A57 /* ASIAuthenticationDialog.m */; };
+		AA52A5351429A574004B920D /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = F892B7A11284412A00F876B3 /* NSData+AES.m */; };
+		AA52A5361429A574004B920D /* NSData+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F892B7A31284412A00F876B3 /* NSData+Encoding.m */; };
+		AA52A5371429A574004B920D /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = F892B7A51284412A00F876B3 /* NSData+SHA.m */; };
+		AA52A5381429A574004B920D /* NSString+Decoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F892B7AC128441BB00F876B3 /* NSString+Decoding.m */; };
+		AA52A5391429A574004B920D /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A7985D128850B900AB5072 /* RegexKitLite.m */; };
+		AA52A53A1429A574004B920D /* NSString+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = F88764DB1289B17500BEB98B /* NSString+SHA.m */; };
+		AA52A53B1429A574004B920D /* EasySetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8454511128B019F006A8302 /* EasySetupViewController.m */; };
+		AA52A53C1429A574004B920D /* ManualSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F8D84E1292FD0C00DED5CE /* ManualSetupViewController.m */; };
+		AA52A53D1429A574004B920D /* NSString+WeaveKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C2821D129353EE00825880 /* NSString+WeaveKeys.m */; };
+		AA52A53E1429A574004B920D /* jpake_err.c in Sources */ = {isa = PBXBuildFile; fileRef = F805D81D1296E2B60064C06D /* jpake_err.c */; };
+		AA52A53F1429A574004B920D /* jpake.c in Sources */ = {isa = PBXBuildFile; fileRef = F805D81E1296E2B60064C06D /* jpake.c */; };
+		AA52A5401429A574004B920D /* NSData+WeaveKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4662012AD9C4000828D26 /* NSData+WeaveKeys.m */; };
+		AA52A5411429A574004B920D /* NSData+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F883099912B0432200035A06 /* NSData+Random.m */; };
+		AA52A5421429A574004B920D /* JPAKEKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8830A0812B058C800035A06 /* JPAKEKeys.m */; };
+		AA52A5431429A574004B920D /* WeaveKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8830AFA12B14D2100035A06 /* WeaveKeys.m */; };
+		AA52A5451429A574004B920D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		AA52A5461429A574004B920D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		AA52A5471429A574004B920D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		AA52A5481429A574004B920D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD435108BC67500C4FD32 /* Security.framework */; };
+		AA52A5491429A574004B920D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */; };
+		AA52A54A1429A574004B920D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */; };
+		AA52A54B1429A574004B920D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */; };
+		AA52A54C1429A574004B920D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B3E3F5126F1F60008178BA /* MessageUI.framework */; };
+		AA52A54D1429A574004B920D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAE91281AFAA00948A57 /* libcrypto.a */; };
+		AA52A54E1429A574004B920D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAEA1281AFAA00948A57 /* libssl.a */; };
+		AA52A54F1429A574004B920D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC081281B19E00948A57 /* CFNetwork.framework */; };
+		AA52A5501429A574004B920D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC0D1281B1AF00948A57 /* libz.dylib */; };
+		AA52A5511429A574004B920D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC111281B1B600948A57 /* MobileCoreServices.framework */; };
+		AA52A5521429A574004B920D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A798931288582400AB5072 /* libicucore.dylib */; };
+		AA52A6621429A61F004B920D /* AboutScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5721429A61E004B920D /* AboutScreen.xib */; };
+		AA52A6631429A61F004B920D /* AccountHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5861429A61E004B920D /* AccountHelp.xib */; };
+		AA52A6641429A61F004B920D /* AuthDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A59A1429A61E004B920D /* AuthDialog.xib */; };
+		AA52A6651429A61F004B920D /* BookmarkPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5AE1429A61E004B920D /* BookmarkPage.xib */; };
+		AA52A6661429A61F004B920D /* LogoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5B01429A61E004B920D /* LogoutController.xib */; };
+		AA52A6671429A61F004B920D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5C41429A61E004B920D /* MainWindow.xib */; };
+		AA52A6681429A61F004B920D /* SearchResultsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5D81429A61F004B920D /* SearchResultsController.xib */; };
+		AA52A6691429A61F004B920D /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5EC1429A61F004B920D /* SettingsController.xib */; };
+		AA52A66A1429A61F004B920D /* TabBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A6001429A61F004B920D /* TabBrowserController.xib */; };
+		AA52A66B1429A61F004B920D /* WebPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A6141429A61F004B920D /* WebPageController.xib */; };
+		AA52A66C1429A61F004B920D /* WelcomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A6281429A61F004B920D /* WelcomePage.xib */; };
+		AA52A66D1429A61F004B920D /* ManualSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A63C1429A61F004B920D /* ManualSetupViewController.xib */; };
+		AA52A66E1429A61F004B920D /* EasySetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A64F1429A61F004B920D /* EasySetupViewController.xib */; };
 		E62E983E11A70F4500B56879 /* AccountHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E983C11A70F4500B56879 /* AccountHelp.m */; };
 		E65DB0D911CAF5C500FBF52E /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E65DB0D811CAF5C500FBF52E /* KeychainItemWrapper.m */; };
 		E67B8E5111C83F5E00A31688 /* AuthDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E67B8E4F11C83F5E00A31688 /* AuthDialog.m */; };
@@ -210,6 +360,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AA52A4B91429A574004B920D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83E0F7B129E0CB000FE5CF2;
+			remoteInfo = Tests;
+		};
 		F83E0F8C129E0D1B00FE5CF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -332,6 +489,234 @@
 		4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* FFHome-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FFHome-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AA52A5591429A574004B920D /* FirefoxHome-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirefoxHome-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA52A5731429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5741429A61E004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5751429A61E004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5761429A61E004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5771429A61E004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5781429A61E004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5791429A61E004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57A1429A61E004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57B1429A61E004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57C1429A61E004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57D1429A61E004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57E1429A61E004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A57F1429A61E004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5801429A61E004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5811429A61E004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5821429A61E004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5831429A61E004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5841429A61E004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5851429A61E004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
+		AA52A5871429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5881429A61E004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5891429A61E004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58A1429A61E004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58B1429A61E004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58C1429A61E004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58D1429A61E004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58E1429A61E004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A58F1429A61E004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5901429A61E004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5911429A61E004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5921429A61E004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5931429A61E004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5941429A61E004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5951429A61E004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5961429A61E004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5971429A61E004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5981429A61E004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A5991429A61E004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/AccountHelp.xib"; sourceTree = "<group>"; };
+		AA52A59B1429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A59C1429A61E004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A59D1429A61E004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A59E1429A61E004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A59F1429A61E004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A01429A61E004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A11429A61E004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A21429A61E004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A31429A61E004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A41429A61E004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A51429A61E004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A61429A61E004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A71429A61E004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A81429A61E004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5A91429A61E004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5AA1429A61E004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5AB1429A61E004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5AC1429A61E004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5AD1429A61E004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/AuthDialog.xib"; sourceTree = "<group>"; };
+		AA52A5AF1429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/BookmarkPage.xib"; sourceTree = "<group>"; };
+		AA52A5B11429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B21429A61E004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B31429A61E004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B41429A61E004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B51429A61E004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B61429A61E004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B71429A61E004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B81429A61E004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5B91429A61E004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BA1429A61E004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BB1429A61E004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BC1429A61E004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BD1429A61E004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BE1429A61E004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5BF1429A61E004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5C01429A61E004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5C11429A61E004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5C21429A61E004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5C31429A61E004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/LogoutController.xib"; sourceTree = "<group>"; };
+		AA52A5C51429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5C61429A61E004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5C71429A61E004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5C81429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5C91429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CA1429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CB1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CC1429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CD1429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CE1429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5CF1429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D01429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D11429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D21429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D31429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D41429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D51429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D61429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D71429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/MainWindow.xib"; sourceTree = "<group>"; };
+		AA52A5D91429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DA1429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DB1429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DC1429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DD1429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DE1429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5DF1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E01429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E11429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E21429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E31429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E41429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E51429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E61429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E71429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E81429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5E91429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5EA1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5EB1429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/SearchResultsController.xib"; sourceTree = "<group>"; };
+		AA52A5ED1429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5EE1429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5EF1429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F01429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F11429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F21429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F31429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F41429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F51429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F61429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F71429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F81429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5F91429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FA1429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FB1429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FC1429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FD1429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FE1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A5FF1429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/SettingsController.xib"; sourceTree = "<group>"; };
+		AA52A6011429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6021429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6031429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6041429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6051429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6061429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6071429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6081429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6091429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60A1429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60B1429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60C1429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60D1429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60E1429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A60F1429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6101429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6111429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6121429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6131429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/TabBrowserController.xib"; sourceTree = "<group>"; };
+		AA52A6151429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6161429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6171429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6181429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6191429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61A1429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61B1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61C1429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61D1429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61E1429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A61F1429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6201429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6211429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6221429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6231429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6241429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6251429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6261429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6271429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/WebPageController.xib"; sourceTree = "<group>"; };
+		AA52A6291429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62A1429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62B1429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62C1429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62D1429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62E1429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A62F1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6301429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6311429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6321429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6331429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6341429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6351429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6361429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6371429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6381429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A6391429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A63A1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A63B1429A61F004B920D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "pt-PT"; path = "Resources-iPad/pt-PT.lproj/WelcomePage.xib"; sourceTree = "<group>"; };
+		AA52A63D1429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A63E1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A63F1429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6401429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6411429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6421429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6431429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6441429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6451429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6461429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6471429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6481429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6491429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A64A1429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A64B1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A64C1429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A64D1429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A64E1429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/ManualSetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6501429A61F004B920D /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = "Resources-iPad/fr.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6511429A61F004B920D /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = "Resources-iPad/de.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6521429A61F004B920D /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = "Resources-iPad/ca.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6531429A61F004B920D /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = "Resources-iPad/ru.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6541429A61F004B920D /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = "Resources-iPad/th.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6551429A61F004B920D /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tr; path = "Resources-iPad/tr.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6561429A61F004B920D /* ko */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ko; path = "Resources-iPad/ko.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6571429A61F004B920D /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = "Resources-iPad/ja.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6581429A61F004B920D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "Resources-iPad/zh-Hant.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6591429A61F004B920D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "Resources-iPad/it.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65A1429A61F004B920D /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = "Resources-iPad/nl.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65B1429A61F004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65C1429A61F004B920D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = "Resources-iPad/es.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65D1429A61F004B920D /* pl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pl; path = "Resources-iPad/pl.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65E1429A61F004B920D /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = "Resources-iPad/pt.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A65F1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6601429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA52A6611429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
 		E62E983B11A70F4500B56879 /* AccountHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHelp.h; sourceTree = "<group>"; };
 		E62E983C11A70F4500B56879 /* AccountHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHelp.m; sourceTree = "<group>"; };
 		E65DB0D711CAF5C500FBF52E /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
@@ -802,6 +1187,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA52A5441429A574004B920D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA52A5451429A574004B920D /* Foundation.framework in Frameworks */,
+				AA52A5461429A574004B920D /* UIKit.framework in Frameworks */,
+				AA52A5471429A574004B920D /* CoreGraphics.framework in Frameworks */,
+				AA52A5481429A574004B920D /* Security.framework in Frameworks */,
+				AA52A5491429A574004B920D /* libsqlite3.0.dylib in Frameworks */,
+				AA52A54A1429A574004B920D /* QuartzCore.framework in Frameworks */,
+				AA52A54B1429A574004B920D /* SystemConfiguration.framework in Frameworks */,
+				AA52A54C1429A574004B920D /* MessageUI.framework in Frameworks */,
+				AA52A54D1429A574004B920D /* libcrypto.a in Frameworks */,
+				AA52A54E1429A574004B920D /* libssl.a in Frameworks */,
+				AA52A54F1429A574004B920D /* CFNetwork.framework in Frameworks */,
+				AA52A5501429A574004B920D /* libz.dylib in Frameworks */,
+				AA52A5511429A574004B920D /* MobileCoreServices.framework in Frameworks */,
+				AA52A5521429A574004B920D /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83E0F79129E0CB000FE5CF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -849,6 +1255,7 @@
 			children = (
 				1D6058910D05DD3D006BFB54 /* FirefoxHome.app */,
 				F83E0F7C129E0CB000FE5CF2 /* Tests.octest */,
+				AA52A5591429A574004B920D /* FirefoxHome-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -862,6 +1269,7 @@
 				080E96DDFE201D6D7F000001 /* NetworkAndStorage */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				AA52A5701429A574004B920D /* Resources-iPad */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				F8A798931288582400AB5072 /* libicucore.dylib */,
@@ -953,10 +1361,8 @@
 				37A682B210E148BC008005DC /* TapActionController.m */,
 				F8454510128B019F006A8302 /* EasySetupViewController.h */,
 				F8454511128B019F006A8302 /* EasySetupViewController.m */,
-				F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */,
 				F8F8D84D1292FD0C00DED5CE /* ManualSetupViewController.h */,
 				F8F8D84E1292FD0C00DED5CE /* ManualSetupViewController.m */,
-				F8CD9D0A12A5705100CB1A2B /* ManualSetupViewController.xib */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -1036,6 +1442,8 @@
 		37CEC7DB1214B563001F5DB3 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				F8CD9D0A12A5705100CB1A2B /* ManualSetupViewController.xib */,
+				F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */,
 				E691FF96121B53B800C82F9F /* AboutScreen.xib */,
 				E691FF7F121B52BF00C82F9F /* AccountHelp.xib */,
 				37CEC8131214B672001F5DB3 /* AuthDialog.xib */,
@@ -1117,6 +1525,26 @@
 				F8018E5D12725C6F00215F00 /* Background@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		AA52A5701429A574004B920D /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AA52A5721429A61E004B920D /* AboutScreen.xib */,
+				AA52A5861429A61E004B920D /* AccountHelp.xib */,
+				AA52A59A1429A61E004B920D /* AuthDialog.xib */,
+				AA52A5AE1429A61E004B920D /* BookmarkPage.xib */,
+				AA52A5B01429A61E004B920D /* LogoutController.xib */,
+				AA52A5C41429A61E004B920D /* MainWindow.xib */,
+				AA52A5D81429A61F004B920D /* SearchResultsController.xib */,
+				AA52A5EC1429A61F004B920D /* SettingsController.xib */,
+				AA52A6001429A61F004B920D /* TabBrowserController.xib */,
+				AA52A6141429A61F004B920D /* WebPageController.xib */,
+				AA52A6281429A61F004B920D /* WelcomePage.xib */,
+				AA52A63C1429A61F004B920D /* ManualSetupViewController.xib */,
+				AA52A64F1429A61F004B920D /* EasySetupViewController.xib */,
+			);
+			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 		F83E0FB1129E0F8500FE5CF2 /* Tests */ = {
@@ -1392,6 +1820,24 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* FirefoxHome.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AA52A4B71429A574004B920D /* FirefoxHome-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA52A5531429A574004B920D /* Build configuration list for PBXNativeTarget "FirefoxHome-iPad" */;
+			buildPhases = (
+				AA52A4BA1429A574004B920D /* Resources */,
+				AA52A50C1429A574004B920D /* Sources */,
+				AA52A5441429A574004B920D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA52A4B81429A574004B920D /* PBXTargetDependency */,
+			);
+			name = "FirefoxHome-iPad";
+			productName = Weave;
+			productReference = AA52A5591429A574004B920D /* FirefoxHome-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F83E0F7B129E0CB000FE5CF2 /* Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F83E0F84129E0CB100FE5CF2 /* Build configuration list for PBXNativeTarget "Tests" */;
@@ -1415,8 +1861,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Weave" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1454,6 +1903,7 @@
 				1D6058900D05DD3D006BFB54 /* FirefoxHome */,
 				37CEC8911214ED84001F5DB3 /* Localize Xibs */,
 				F83E0F7B129E0CB000FE5CF2 /* Tests */,
+				AA52A4B71429A574004B920D /* FirefoxHome-iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -1547,6 +1997,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA52A4BA1429A574004B920D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA52A4BB1429A574004B920D /* ffhomeDB.sq3 in Resources */,
+				AA52A4BC1429A574004B920D /* Entitlements.plist in Resources */,
+				AA52A4BD1429A574004B920D /* NetworkPaths.plist in Resources */,
+				AA52A4BE1429A574004B920D /* IFUnicodeURL-LICENSE.txt in Resources */,
+				AA52A4BF1429A574004B920D /* README.txt in Resources */,
+				AA52A4C01429A574004B920D /* Localizable.strings in Resources */,
+				AA52A4CC1429A574004B920D /* Settings.bundle in Resources */,
+				AA52A4CD1429A574004B920D /* Action.png in Resources */,
+				AA52A4CE1429A574004B920D /* backward.png in Resources */,
+				AA52A4CF1429A574004B920D /* backward@2x.png in Resources */,
+				AA52A4D01429A574004B920D /* blue-bar.png in Resources */,
+				AA52A4D11429A574004B920D /* blue-bar@2x.png in Resources */,
+				AA52A4D21429A574004B920D /* bookmark.png in Resources */,
+				AA52A4D31429A574004B920D /* bookmark@2x.png in Resources */,
+				AA52A4D41429A574004B920D /* bookmarks.png in Resources */,
+				AA52A4D51429A574004B920D /* bookmarks@2x.png in Resources */,
+				AA52A4D61429A574004B920D /* button-done-default.png in Resources */,
+				AA52A4D71429A574004B920D /* button-done-default@2x.png in Resources */,
+				AA52A4D81429A574004B920D /* button-done-pressed.png in Resources */,
+				AA52A4D91429A574004B920D /* button-done-pressed@2x.png in Resources */,
+				AA52A4DA1429A574004B920D /* button-large-default.png in Resources */,
+				AA52A4DB1429A574004B920D /* button-large-default@2x.png in Resources */,
+				AA52A4DC1429A574004B920D /* button-large-pressed.png in Resources */,
+				AA52A4DD1429A574004B920D /* button-large-pressed@2x.png in Resources */,
+				AA52A4DE1429A574004B920D /* button-medium-default.png in Resources */,
+				AA52A4DF1429A574004B920D /* button-medium-default@2x.png in Resources */,
+				AA52A4E01429A574004B920D /* button-medium-pressed.png in Resources */,
+				AA52A4E11429A574004B920D /* button-medium-pressed@2x.png in Resources */,
+				AA52A4E21429A574004B920D /* button-small-default.png in Resources */,
+				AA52A4E31429A574004B920D /* button-small-default@2x.png in Resources */,
+				AA52A4E41429A574004B920D /* button-small-pressed.png in Resources */,
+				AA52A4E51429A574004B920D /* button-small-pressed@2x.png in Resources */,
+				AA52A4E61429A574004B920D /* Default.png in Resources */,
+				AA52A4E71429A574004B920D /* Default@2x.png in Resources */,
+				AA52A4E81429A574004B920D /* folder.png in Resources */,
+				AA52A4E91429A574004B920D /* folder@2x.png in Resources */,
+				AA52A4EA1429A574004B920D /* forward.png in Resources */,
+				AA52A4EB1429A574004B920D /* forward@2x.png in Resources */,
+				AA52A4EC1429A574004B920D /* goto.png in Resources */,
+				AA52A4ED1429A574004B920D /* goto@2x.png in Resources */,
+				AA52A4EE1429A574004B920D /* header.png in Resources */,
+				AA52A4EF1429A574004B920D /* history.png in Resources */,
+				AA52A4F01429A574004B920D /* history@2x.png in Resources */,
+				AA52A4F11429A574004B920D /* Icon.png in Resources */,
+				AA52A4F21429A574004B920D /* logo.png in Resources */,
+				AA52A4F31429A574004B920D /* logo@2x.png in Resources */,
+				AA52A4F41429A574004B920D /* reload.png in Resources */,
+				AA52A4F51429A574004B920D /* reload@2x.png in Resources */,
+				AA52A4F61429A574004B920D /* settings-screen@2x.png in Resources */,
+				AA52A4F71429A574004B920D /* settings.png in Resources */,
+				AA52A4F81429A574004B920D /* settings@2x.png in Resources */,
+				AA52A4F91429A574004B920D /* short_header.png in Resources */,
+				AA52A4FA1429A574004B920D /* SpinnerBackground.png in Resources */,
+				AA52A4FB1429A574004B920D /* SpinnerBackground@2x.png in Resources */,
+				AA52A4FC1429A574004B920D /* srchSpinBG.png in Resources */,
+				AA52A4FD1429A574004B920D /* tab.png in Resources */,
+				AA52A4FE1429A574004B920D /* tab@2x.png in Resources */,
+				AA52A4FF1429A574004B920D /* Tabs.png in Resources */,
+				AA52A5001429A574004B920D /* Tabs@2x.png in Resources */,
+				AA52A5011429A574004B920D /* wordmark.png in Resources */,
+				AA52A5021429A574004B920D /* wordmark@2x.png in Resources */,
+				AA52A5031429A574004B920D /* Icon@2x.png in Resources */,
+				AA52A5041429A574004B920D /* button-stop-pressed.png in Resources */,
+				AA52A5051429A574004B920D /* button-stop-pressed@2x.png in Resources */,
+				AA52A5061429A574004B920D /* button-stop.png in Resources */,
+				AA52A5071429A574004B920D /* button-stop@2x.png in Resources */,
+				AA52A5081429A574004B920D /* Background.png in Resources */,
+				AA52A5091429A574004B920D /* Background@2x.png in Resources */,
+				AA52A6621429A61F004B920D /* AboutScreen.xib in Resources */,
+				AA52A6631429A61F004B920D /* AccountHelp.xib in Resources */,
+				AA52A6641429A61F004B920D /* AuthDialog.xib in Resources */,
+				AA52A6651429A61F004B920D /* BookmarkPage.xib in Resources */,
+				AA52A6661429A61F004B920D /* LogoutController.xib in Resources */,
+				AA52A6671429A61F004B920D /* MainWindow.xib in Resources */,
+				AA52A6681429A61F004B920D /* SearchResultsController.xib in Resources */,
+				AA52A6691429A61F004B920D /* SettingsController.xib in Resources */,
+				AA52A66A1429A61F004B920D /* TabBrowserController.xib in Resources */,
+				AA52A66B1429A61F004B920D /* WebPageController.xib in Resources */,
+				AA52A66C1429A61F004B920D /* WelcomePage.xib in Resources */,
+				AA52A66D1429A61F004B920D /* ManualSetupViewController.xib in Resources */,
+				AA52A66E1429A61F004B920D /* EasySetupViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83E0F77129E0CB000FE5CF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1569,7 +2107,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "originalResourceDirectory=\"$PROJECT_DIR/English.lproj\"\necho $originalResourceDirectory\n  for localizedDirectory in \"$PROJECT_DIR/\"*.lproj; do\n    if [ $localizedDirectory != $originalResourceDirectory ]; then\n\techo \"processing ${localizedDirectory}\"\n      for xibFile in \"${originalResourceDirectory}/\"*.xib; do\n        xibBaseName=$(basename \"${xibFile}\")\n\t   if [ -f \"${localizedDirectory}/${xibBaseName}.strings\" ]; then\n         ibtool --strings-file \"${localizedDirectory}/${xibBaseName}.strings\" --write \"${localizedDirectory}/${xibBaseName}\" \"$xibFile\"\n        else\n         echo \"missing: ${localizedDirectory}/${xibBaseName}.strings\"\n        fi\n      done\n    fi\n  done\nexit 0";
+			shellScript = "originalResourceDirectory=\"English.lproj\"\n\necho $originalResourceDirectory\nfor localizedDirectory in *.lproj; do\nif [ $localizedDirectory != $originalResourceDirectory ]; then\necho \"processing ${localizedDirectory}\"\nfor xibFile in \"${originalResourceDirectory}/\"*.xib; do\nxibBaseName=$(basename \"${xibFile}\")\nif [ -f \"${localizedDirectory}/${xibBaseName}.strings\" ]; then\nibtool --strings-file \"${localizedDirectory}/${xibBaseName}.strings\" --write \"${localizedDirectory}/${xibBaseName}\" \"$xibFile\"\nelse\necho \"missing: ${localizedDirectory}/${xibBaseName}.strings\"\nfi\ndone\nfi\ndone\n\nfor localizedDirectory in \"Resources-iPad/\"*.lproj; do\nif [ $localizedDirectory != \"Resources-iPad/\"$originalResourceDirectory ]; then\necho \"processing iPad/ ${localizedDirectory}\"\nfor xibFile in \"Resources-iPad/${originalResourceDirectory}/\"*.xib; do\nxibBaseName=$(basename \"${xibFile}\")\nif [ -f \"${localizedDirectory}/${xibBaseName}.strings\" ]; then\nibtool --strings-file \"${localizedDirectory}/${xibBaseName}.strings\" --write \"${localizedDirectory}/${xibBaseName}\" \"$xibFile\"\nelse\necho \"missing: ${localizedDirectory}/${xibBaseName}.strings\"\nfi\ndone\nfi\ndone\n\nexit 0";
 		};
 		F83E0F7A129E0CB000FE5CF2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1649,6 +2187,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA52A50C1429A574004B920D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA52A50D1429A574004B920D /* main.m in Sources */,
+				AA52A50E1429A574004B920D /* CryptoUtils.m in Sources */,
+				AA52A50F1429A574004B920D /* Fetcher.m in Sources */,
+				AA52A5101429A574004B920D /* NSObject+SBJSON.m in Sources */,
+				AA52A5111429A574004B920D /* NSString+SBJSON.m in Sources */,
+				AA52A5121429A574004B920D /* SBJSON.m in Sources */,
+				AA52A5131429A574004B920D /* SBJsonBase.m in Sources */,
+				AA52A5141429A574004B920D /* SBJsonParser.m in Sources */,
+				AA52A5151429A574004B920D /* SBJsonWriter.m in Sources */,
+				AA52A5161429A574004B920D /* Stockboy.m in Sources */,
+				AA52A5171429A574004B920D /* Store.m in Sources */,
+				AA52A5181429A574004B920D /* Utility.m in Sources */,
+				AA52A5191429A574004B920D /* SearchResultsController.m in Sources */,
+				AA52A51A1429A574004B920D /* SettingsController.m in Sources */,
+				AA52A51B1429A574004B920D /* TabBrowserController.m in Sources */,
+				AA52A51C1429A574004B920D /* WeaveAppDelegate.m in Sources */,
+				AA52A51D1429A574004B920D /* WebPageController.m in Sources */,
+				AA52A51E1429A574004B920D /* TapActionController.m in Sources */,
+				AA52A51F1429A574004B920D /* LogoutController.m in Sources */,
+				AA52A5201429A574004B920D /* BookmarkNav.m in Sources */,
+				AA52A5211429A574004B920D /* BookmarkPage.m in Sources */,
+				AA52A5221429A574004B920D /* WelcomePage.m in Sources */,
+				AA52A5231429A574004B920D /* AccountHelp.m in Sources */,
+				AA52A5241429A574004B920D /* AuthDialog.m in Sources */,
+				AA52A5251429A574004B920D /* KeychainItemWrapper.m in Sources */,
+				AA52A5261429A574004B920D /* AboutScreen.m in Sources */,
+				AA52A5271429A574004B920D /* nameprep.c in Sources */,
+				AA52A5281429A574004B920D /* puny.c in Sources */,
+				AA52A5291429A574004B920D /* race.c in Sources */,
+				AA52A52A1429A574004B920D /* toxxx.c in Sources */,
+				AA52A52B1429A574004B920D /* util.c in Sources */,
+				AA52A52C1429A574004B920D /* NSURL+IFUnicodeURL.m in Sources */,
+				AA52A52D1429A574004B920D /* ASIHTTPRequest.m in Sources */,
+				AA52A52E1429A574004B920D /* ASIInputStream.m in Sources */,
+				AA52A52F1429A574004B920D /* ASINetworkQueue.m in Sources */,
+				AA52A5301429A574004B920D /* Reachability.m in Sources */,
+				AA52A5311429A574004B920D /* JPAKEClient.m in Sources */,
+				AA52A5321429A574004B920D /* JPAKEParty.m in Sources */,
+				AA52A5331429A574004B920D /* JPAKEReporter.m in Sources */,
+				AA52A5341429A574004B920D /* ASIAuthenticationDialog.m in Sources */,
+				AA52A5351429A574004B920D /* NSData+AES.m in Sources */,
+				AA52A5361429A574004B920D /* NSData+Encoding.m in Sources */,
+				AA52A5371429A574004B920D /* NSData+SHA.m in Sources */,
+				AA52A5381429A574004B920D /* NSString+Decoding.m in Sources */,
+				AA52A5391429A574004B920D /* RegexKitLite.m in Sources */,
+				AA52A53A1429A574004B920D /* NSString+SHA.m in Sources */,
+				AA52A53B1429A574004B920D /* EasySetupViewController.m in Sources */,
+				AA52A53C1429A574004B920D /* ManualSetupViewController.m in Sources */,
+				AA52A53D1429A574004B920D /* NSString+WeaveKeys.m in Sources */,
+				AA52A53E1429A574004B920D /* jpake_err.c in Sources */,
+				AA52A53F1429A574004B920D /* jpake.c in Sources */,
+				AA52A5401429A574004B920D /* NSData+WeaveKeys.m in Sources */,
+				AA52A5411429A574004B920D /* NSData+Random.m in Sources */,
+				AA52A5421429A574004B920D /* JPAKEKeys.m in Sources */,
+				AA52A5431429A574004B920D /* WeaveKeys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83E0F78129E0CB000FE5CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1686,6 +2286,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AA52A4B81429A574004B920D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83E0F7B129E0CB000FE5CF2 /* Tests */;
+			targetProxy = AA52A4B91429A574004B920D /* PBXContainerItemProxy */;
+		};
 		F83E0F8D129E0D1B00FE5CF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F83E0F7B129E0CB000FE5CF2 /* Tests */;
@@ -1910,6 +2515,324 @@
 			name = WelcomePage.xib;
 			sourceTree = "<group>";
 		};
+		AA52A5721429A61E004B920D /* AboutScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5731429A61E004B920D /* English */,
+				AA52A5741429A61E004B920D /* ca */,
+				AA52A5751429A61E004B920D /* cs */,
+				AA52A5761429A61E004B920D /* de */,
+				AA52A5771429A61E004B920D /* es */,
+				AA52A5781429A61E004B920D /* fr */,
+				AA52A5791429A61E004B920D /* it */,
+				AA52A57A1429A61E004B920D /* ja */,
+				AA52A57B1429A61E004B920D /* ko */,
+				AA52A57C1429A61E004B920D /* nl */,
+				AA52A57D1429A61E004B920D /* pl */,
+				AA52A57E1429A61E004B920D /* pt */,
+				AA52A57F1429A61E004B920D /* ru */,
+				AA52A5801429A61E004B920D /* tr */,
+				AA52A5811429A61E004B920D /* zh-Hant */,
+				AA52A5821429A61E004B920D /* zh-Hans */,
+				AA52A5831429A61E004B920D /* th */,
+				AA52A5841429A61E004B920D /* id */,
+				AA52A5851429A61E004B920D /* pt-PT */,
+			);
+			name = AboutScreen.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5861429A61E004B920D /* AccountHelp.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5871429A61E004B920D /* English */,
+				AA52A5881429A61E004B920D /* ru */,
+				AA52A5891429A61E004B920D /* it */,
+				AA52A58A1429A61E004B920D /* fr */,
+				AA52A58B1429A61E004B920D /* tr */,
+				AA52A58C1429A61E004B920D /* nl */,
+				AA52A58D1429A61E004B920D /* pl */,
+				AA52A58E1429A61E004B920D /* ko */,
+				AA52A58F1429A61E004B920D /* cs */,
+				AA52A5901429A61E004B920D /* ja */,
+				AA52A5911429A61E004B920D /* ca */,
+				AA52A5921429A61E004B920D /* de */,
+				AA52A5931429A61E004B920D /* es */,
+				AA52A5941429A61E004B920D /* pt */,
+				AA52A5951429A61E004B920D /* zh-Hant */,
+				AA52A5961429A61E004B920D /* zh-Hans */,
+				AA52A5971429A61E004B920D /* th */,
+				AA52A5981429A61E004B920D /* id */,
+				AA52A5991429A61E004B920D /* pt-PT */,
+			);
+			name = AccountHelp.xib;
+			sourceTree = "<group>";
+		};
+		AA52A59A1429A61E004B920D /* AuthDialog.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A59B1429A61E004B920D /* English */,
+				AA52A59C1429A61E004B920D /* ru */,
+				AA52A59D1429A61E004B920D /* it */,
+				AA52A59E1429A61E004B920D /* fr */,
+				AA52A59F1429A61E004B920D /* tr */,
+				AA52A5A01429A61E004B920D /* nl */,
+				AA52A5A11429A61E004B920D /* pl */,
+				AA52A5A21429A61E004B920D /* ko */,
+				AA52A5A31429A61E004B920D /* cs */,
+				AA52A5A41429A61E004B920D /* ja */,
+				AA52A5A51429A61E004B920D /* ca */,
+				AA52A5A61429A61E004B920D /* de */,
+				AA52A5A71429A61E004B920D /* es */,
+				AA52A5A81429A61E004B920D /* pt */,
+				AA52A5A91429A61E004B920D /* zh-Hant */,
+				AA52A5AA1429A61E004B920D /* zh-Hans */,
+				AA52A5AB1429A61E004B920D /* th */,
+				AA52A5AC1429A61E004B920D /* id */,
+				AA52A5AD1429A61E004B920D /* pt-PT */,
+			);
+			name = AuthDialog.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5AE1429A61E004B920D /* BookmarkPage.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5AF1429A61E004B920D /* English */,
+			);
+			name = BookmarkPage.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5B01429A61E004B920D /* LogoutController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5B11429A61E004B920D /* English */,
+				AA52A5B21429A61E004B920D /* ru */,
+				AA52A5B31429A61E004B920D /* it */,
+				AA52A5B41429A61E004B920D /* fr */,
+				AA52A5B51429A61E004B920D /* tr */,
+				AA52A5B61429A61E004B920D /* nl */,
+				AA52A5B71429A61E004B920D /* pl */,
+				AA52A5B81429A61E004B920D /* ko */,
+				AA52A5B91429A61E004B920D /* cs */,
+				AA52A5BA1429A61E004B920D /* ja */,
+				AA52A5BB1429A61E004B920D /* ca */,
+				AA52A5BC1429A61E004B920D /* de */,
+				AA52A5BD1429A61E004B920D /* es */,
+				AA52A5BE1429A61E004B920D /* pt */,
+				AA52A5BF1429A61E004B920D /* zh-Hant */,
+				AA52A5C01429A61E004B920D /* zh-Hans */,
+				AA52A5C11429A61E004B920D /* th */,
+				AA52A5C21429A61E004B920D /* id */,
+				AA52A5C31429A61E004B920D /* pt-PT */,
+			);
+			name = LogoutController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5C41429A61E004B920D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5C51429A61E004B920D /* English */,
+				AA52A5C61429A61E004B920D /* ru */,
+				AA52A5C71429A61E004B920D /* it */,
+				AA52A5C81429A61F004B920D /* fr */,
+				AA52A5C91429A61F004B920D /* tr */,
+				AA52A5CA1429A61F004B920D /* nl */,
+				AA52A5CB1429A61F004B920D /* pl */,
+				AA52A5CC1429A61F004B920D /* ko */,
+				AA52A5CD1429A61F004B920D /* cs */,
+				AA52A5CE1429A61F004B920D /* ja */,
+				AA52A5CF1429A61F004B920D /* ca */,
+				AA52A5D01429A61F004B920D /* de */,
+				AA52A5D11429A61F004B920D /* es */,
+				AA52A5D21429A61F004B920D /* pt */,
+				AA52A5D31429A61F004B920D /* zh-Hant */,
+				AA52A5D41429A61F004B920D /* zh-Hans */,
+				AA52A5D51429A61F004B920D /* th */,
+				AA52A5D61429A61F004B920D /* id */,
+				AA52A5D71429A61F004B920D /* pt-PT */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5D81429A61F004B920D /* SearchResultsController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5D91429A61F004B920D /* English */,
+				AA52A5DA1429A61F004B920D /* ru */,
+				AA52A5DB1429A61F004B920D /* it */,
+				AA52A5DC1429A61F004B920D /* fr */,
+				AA52A5DD1429A61F004B920D /* tr */,
+				AA52A5DE1429A61F004B920D /* nl */,
+				AA52A5DF1429A61F004B920D /* pl */,
+				AA52A5E01429A61F004B920D /* ko */,
+				AA52A5E11429A61F004B920D /* cs */,
+				AA52A5E21429A61F004B920D /* ja */,
+				AA52A5E31429A61F004B920D /* ca */,
+				AA52A5E41429A61F004B920D /* de */,
+				AA52A5E51429A61F004B920D /* es */,
+				AA52A5E61429A61F004B920D /* pt */,
+				AA52A5E71429A61F004B920D /* zh-Hant */,
+				AA52A5E81429A61F004B920D /* zh-Hans */,
+				AA52A5E91429A61F004B920D /* th */,
+				AA52A5EA1429A61F004B920D /* id */,
+				AA52A5EB1429A61F004B920D /* pt-PT */,
+			);
+			name = SearchResultsController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A5EC1429A61F004B920D /* SettingsController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A5ED1429A61F004B920D /* English */,
+				AA52A5EE1429A61F004B920D /* ru */,
+				AA52A5EF1429A61F004B920D /* it */,
+				AA52A5F01429A61F004B920D /* fr */,
+				AA52A5F11429A61F004B920D /* tr */,
+				AA52A5F21429A61F004B920D /* nl */,
+				AA52A5F31429A61F004B920D /* pl */,
+				AA52A5F41429A61F004B920D /* ko */,
+				AA52A5F51429A61F004B920D /* cs */,
+				AA52A5F61429A61F004B920D /* ja */,
+				AA52A5F71429A61F004B920D /* ca */,
+				AA52A5F81429A61F004B920D /* de */,
+				AA52A5F91429A61F004B920D /* es */,
+				AA52A5FA1429A61F004B920D /* pt */,
+				AA52A5FB1429A61F004B920D /* zh-Hant */,
+				AA52A5FC1429A61F004B920D /* zh-Hans */,
+				AA52A5FD1429A61F004B920D /* th */,
+				AA52A5FE1429A61F004B920D /* id */,
+				AA52A5FF1429A61F004B920D /* pt-PT */,
+			);
+			name = SettingsController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A6001429A61F004B920D /* TabBrowserController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A6011429A61F004B920D /* English */,
+				AA52A6021429A61F004B920D /* ru */,
+				AA52A6031429A61F004B920D /* it */,
+				AA52A6041429A61F004B920D /* fr */,
+				AA52A6051429A61F004B920D /* tr */,
+				AA52A6061429A61F004B920D /* nl */,
+				AA52A6071429A61F004B920D /* pl */,
+				AA52A6081429A61F004B920D /* ko */,
+				AA52A6091429A61F004B920D /* cs */,
+				AA52A60A1429A61F004B920D /* ja */,
+				AA52A60B1429A61F004B920D /* ca */,
+				AA52A60C1429A61F004B920D /* de */,
+				AA52A60D1429A61F004B920D /* es */,
+				AA52A60E1429A61F004B920D /* pt */,
+				AA52A60F1429A61F004B920D /* zh-Hant */,
+				AA52A6101429A61F004B920D /* zh-Hans */,
+				AA52A6111429A61F004B920D /* th */,
+				AA52A6121429A61F004B920D /* id */,
+				AA52A6131429A61F004B920D /* pt-PT */,
+			);
+			name = TabBrowserController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A6141429A61F004B920D /* WebPageController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A6151429A61F004B920D /* English */,
+				AA52A6161429A61F004B920D /* ru */,
+				AA52A6171429A61F004B920D /* it */,
+				AA52A6181429A61F004B920D /* fr */,
+				AA52A6191429A61F004B920D /* tr */,
+				AA52A61A1429A61F004B920D /* nl */,
+				AA52A61B1429A61F004B920D /* pl */,
+				AA52A61C1429A61F004B920D /* ko */,
+				AA52A61D1429A61F004B920D /* cs */,
+				AA52A61E1429A61F004B920D /* ja */,
+				AA52A61F1429A61F004B920D /* ca */,
+				AA52A6201429A61F004B920D /* de */,
+				AA52A6211429A61F004B920D /* es */,
+				AA52A6221429A61F004B920D /* pt */,
+				AA52A6231429A61F004B920D /* zh-Hant */,
+				AA52A6241429A61F004B920D /* zh-Hans */,
+				AA52A6251429A61F004B920D /* th */,
+				AA52A6261429A61F004B920D /* id */,
+				AA52A6271429A61F004B920D /* pt-PT */,
+			);
+			name = WebPageController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A6281429A61F004B920D /* WelcomePage.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A6291429A61F004B920D /* English */,
+				AA52A62A1429A61F004B920D /* ru */,
+				AA52A62B1429A61F004B920D /* it */,
+				AA52A62C1429A61F004B920D /* fr */,
+				AA52A62D1429A61F004B920D /* tr */,
+				AA52A62E1429A61F004B920D /* nl */,
+				AA52A62F1429A61F004B920D /* pl */,
+				AA52A6301429A61F004B920D /* ko */,
+				AA52A6311429A61F004B920D /* cs */,
+				AA52A6321429A61F004B920D /* ja */,
+				AA52A6331429A61F004B920D /* ca */,
+				AA52A6341429A61F004B920D /* de */,
+				AA52A6351429A61F004B920D /* es */,
+				AA52A6361429A61F004B920D /* pt */,
+				AA52A6371429A61F004B920D /* zh-Hant */,
+				AA52A6381429A61F004B920D /* zh-Hans */,
+				AA52A6391429A61F004B920D /* th */,
+				AA52A63A1429A61F004B920D /* id */,
+				AA52A63B1429A61F004B920D /* pt-PT */,
+			);
+			name = WelcomePage.xib;
+			sourceTree = "<group>";
+		};
+		AA52A63C1429A61F004B920D /* ManualSetupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A63D1429A61F004B920D /* th */,
+				AA52A63E1429A61F004B920D /* pl */,
+				AA52A63F1429A61F004B920D /* ko */,
+				AA52A6401429A61F004B920D /* nl */,
+				AA52A6411429A61F004B920D /* ca */,
+				AA52A6421429A61F004B920D /* es */,
+				AA52A6431429A61F004B920D /* it */,
+				AA52A6441429A61F004B920D /* de */,
+				AA52A6451429A61F004B920D /* ja */,
+				AA52A6461429A61F004B920D /* pt */,
+				AA52A6471429A61F004B920D /* ru */,
+				AA52A6481429A61F004B920D /* fr */,
+				AA52A6491429A61F004B920D /* English */,
+				AA52A64A1429A61F004B920D /* tr */,
+				AA52A64B1429A61F004B920D /* id */,
+				AA52A64C1429A61F004B920D /* cs */,
+				AA52A64D1429A61F004B920D /* zh-Hans */,
+				AA52A64E1429A61F004B920D /* zh-Hant */,
+			);
+			name = ManualSetupViewController.xib;
+			sourceTree = "<group>";
+		};
+		AA52A64F1429A61F004B920D /* EasySetupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA52A6501429A61F004B920D /* fr */,
+				AA52A6511429A61F004B920D /* de */,
+				AA52A6521429A61F004B920D /* ca */,
+				AA52A6531429A61F004B920D /* ru */,
+				AA52A6541429A61F004B920D /* th */,
+				AA52A6551429A61F004B920D /* tr */,
+				AA52A6561429A61F004B920D /* ko */,
+				AA52A6571429A61F004B920D /* ja */,
+				AA52A6581429A61F004B920D /* zh-Hant */,
+				AA52A6591429A61F004B920D /* it */,
+				AA52A65A1429A61F004B920D /* nl */,
+				AA52A65B1429A61F004B920D /* English */,
+				AA52A65C1429A61F004B920D /* es */,
+				AA52A65D1429A61F004B920D /* pl */,
+				AA52A65E1429A61F004B920D /* pt */,
+				AA52A65F1429A61F004B920D /* id */,
+				AA52A6601429A61F004B920D /* cs */,
+				AA52A6611429A61F004B920D /* zh-Hans */,
+			);
+			name = EasySetupViewController.xib;
+			sourceTree = "<group>";
+		};
 		E691FF68121B4F8C00C82F9F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2011,6 +2934,7 @@
 				F8CD9D1C12A5705100CB1A2B /* zh-Hant */,
 			);
 			name = ManualSetupViewController.xib;
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 		F8CD9D1E12A5706B00CB1A2B /* EasySetupViewController.xib */ = {
@@ -2036,6 +2960,7 @@
 				F8CD9D3012A5706B00CB1A2B /* zh-Hans */,
 			);
 			name = EasySetupViewController.xib;
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -2058,6 +2983,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2080,6 +3006,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2101,8 +3028,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
-				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Distribution;
 		};
@@ -2115,6 +3041,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
@@ -2134,8 +3061,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				PRODUCT_NAME = "Localize Xibs";
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -2144,8 +3072,9 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				PRODUCT_NAME = "Localize Xibs";
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -2153,7 +3082,152 @@
 		37CEC8941214ED84001F5DB3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				PRODUCT_NAME = "Localize Xibs";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		AA52A5541429A574004B920D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FXHOME_DEBUG,
+					JPAKE_DEBUG,
+					OPENSSL_EXPERIMENTAL_JPAKE,
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
+				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalSources/ios-openssl/lib\"",
+				);
+				PRODUCT_NAME = "FirefoxHome-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		AA52A5551429A574004B920D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
+				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalSources/ios-openssl/lib\"",
+				);
+				PRODUCT_NAME = "FirefoxHome-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		AA52A5561429A574004B920D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FXHOME_DEBUG_LOG,
+					JPAKE_DEBUG,
+					OPENSSL_EXPERIMENTAL_JPAKE,
+				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
+				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalSources/ios-openssl/lib\"",
+				);
+				PRODUCT_NAME = "FirefoxHome-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		AA52A5571429A574004B920D /* AdHocStefan */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
+				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalSources/ios-openssl/lib\"",
+				);
+				PRODUCT_NAME = "FirefoxHome-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHocStefan;
+		};
+		AA52A5581429A574004B920D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mozilla Corporation";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weave_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
+				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalSources/ios-openssl/lib\"",
+				);
+				PRODUCT_NAME = "FirefoxHome-iPad";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D854824C-BE65-4B79-9AB1-9D6268A2CCA2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Distribution;
 		};
@@ -2167,9 +3241,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
@@ -2182,8 +3255,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -2198,9 +3270,9 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2215,7 +3287,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -2233,8 +3304,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2249,7 +3320,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -2266,8 +3336,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2282,7 +3352,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -2298,8 +3367,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2314,7 +3383,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -2330,8 +3398,8 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2346,7 +3414,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = Tests;
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -2363,9 +3430,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = AdHoc;
@@ -2387,6 +3453,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2406,7 +3473,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				PRODUCT_NAME = "Localize Xibs";
+				SDKROOT = iphoneos;
 			};
 			name = AdHoc;
 		};
@@ -2420,9 +3489,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = AdHocStefan;
@@ -2440,6 +3508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Stefan-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2459,7 +3528,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				PRODUCT_NAME = "Localize Xibs";
+				SDKROOT = iphoneos;
 			};
 			name = AdHocStefan;
 		};
@@ -2486,6 +3557,18 @@
 				F875D0BD124AAEEF000BCAC9 /* AdHoc */,
 				F875D0CD124AB101000BCAC9 /* AdHocStefan */,
 				37CEC8941214ED84001F5DB3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHocStefan;
+		};
+		AA52A5531429A574004B920D /* Build configuration list for PBXNativeTarget "FirefoxHome-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA52A5541429A574004B920D /* Debug */,
+				AA52A5551429A574004B920D /* Release */,
+				AA52A5561429A574004B920D /* AdHoc */,
+				AA52A5571429A574004B920D /* AdHocStefan */,
+				AA52A5581429A574004B920D /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = AdHocStefan;

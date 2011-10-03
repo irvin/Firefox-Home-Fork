@@ -26,8 +26,16 @@ if [ ! -d "${DST_LOCALE}.lproj" ]; then
 	|| exit 1
 fi
 
+if [ ! -d "Resources-iPad/${DST_LOCALE}.lproj" ]; then
+	mkdir "Resources-iPad/${DST_LOCALE}.lproj" \
+		|| exit 1
+fi
+
+
 po2prop \
 	-t "English.lproj/${FILENAME}.strings" \
 	"/tmp/${FILENAME}.strings.po" \
 	"${DST_LOCALE}.lproj/${FILENAME}.strings"
 
+cp "${DST_LOCALE}.lproj/${FILENAME}.strings" \
+	"Resources-iPad/${DST_LOCALE}.lproj/${FILENAME}.strings"

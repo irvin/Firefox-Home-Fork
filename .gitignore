@@ -1,2 +1,4 @@
 Sources/Weave.xcodeproj/xcuserdata/
 Sources/Weave.xcodeproj/project.xcworkspace/xcuserdata/
+*.lproj
+!English.lproj
