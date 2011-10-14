@@ -23,7 +23,6 @@
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		3715979710D82DD800F28263 /* SearchResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978410D82DD800F28263 /* SearchResultsController.m */; };
 		3715979910D82DD800F28263 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715978710D82DD800F28263 /* SettingsController.m */; };
@@ -68,7 +67,6 @@
 		4AFBD436108BC67500C4FD32 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD435108BC67500C4FD32 /* Security.framework */; };
 		4AFBD47A108BC68500C4FD32 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */; };
 		4AFBD47C108BC68A00C4FD32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */; };
-		4AFBD480108BC68F00C4FD32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */; };
 		AA52A4BB1429A574004B920D /* ffhomeDB.sq3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD420108BC64E00C4FD32 /* ffhomeDB.sq3 */; };
 		AA52A4BC1429A574004B920D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFBD422108BC65500C4FD32 /* Entitlements.plist */; };
 		AA52A4BD1429A574004B920D /* NetworkPaths.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A275D8D10925B740021DCB4 /* NetworkPaths.plist */; };
@@ -193,18 +191,13 @@
 		AA52A5421429A574004B920D /* JPAKEKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8830A0812B058C800035A06 /* JPAKEKeys.m */; };
 		AA52A5431429A574004B920D /* WeaveKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F8830AFA12B14D2100035A06 /* WeaveKeys.m */; };
 		AA52A5451429A574004B920D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		AA52A5461429A574004B920D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		AA52A5471429A574004B920D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		AA52A5481429A574004B920D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD435108BC67500C4FD32 /* Security.framework */; };
 		AA52A5491429A574004B920D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */; };
 		AA52A54A1429A574004B920D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */; };
-		AA52A54B1429A574004B920D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */; };
 		AA52A54C1429A574004B920D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B3E3F5126F1F60008178BA /* MessageUI.framework */; };
 		AA52A54D1429A574004B920D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAE91281AFAA00948A57 /* libcrypto.a */; };
 		AA52A54E1429A574004B920D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAEA1281AFAA00948A57 /* libssl.a */; };
-		AA52A54F1429A574004B920D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC081281B19E00948A57 /* CFNetwork.framework */; };
-		AA52A5501429A574004B920D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC0D1281B1AF00948A57 /* libz.dylib */; };
-		AA52A5511429A574004B920D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC111281B1B600948A57 /* MobileCoreServices.framework */; };
 		AA52A5521429A574004B920D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A798931288582400AB5072 /* libicucore.dylib */; };
 		AA52A6621429A61F004B920D /* AboutScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5721429A61E004B920D /* AboutScreen.xib */; };
 		AA52A6631429A61F004B920D /* AccountHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A5861429A61E004B920D /* AccountHelp.xib */; };
@@ -219,6 +212,22 @@
 		AA52A66C1429A61F004B920D /* WelcomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A6281429A61F004B920D /* WelcomePage.xib */; };
 		AA52A66D1429A61F004B920D /* ManualSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A63C1429A61F004B920D /* ManualSetupViewController.xib */; };
 		AA52A66E1429A61F004B920D /* EasySetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA52A64F1429A61F004B920D /* EasySetupViewController.xib */; };
+		AA9233BB14484D3D00F40A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9233BA14484D3D00F40A33 /* UIKit.framework */; };
+		AA9233BC14484D3D00F40A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9233BA14484D3D00F40A33 /* UIKit.framework */; };
+		AA9233BD14484DA100F40A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		AA9233BE14484DB600F40A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9233BA14484D3D00F40A33 /* UIKit.framework */; };
+		AA9233BF14484DC100F40A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		AA9233C014484DEF00F40A33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */; };
+		AA9233C114484DFB00F40A33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244912AEE16800A192F4 /* SystemConfiguration.framework */; };
+		AA9233C214484DFC00F40A33 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244912AEE16800A192F4 /* SystemConfiguration.framework */; };
+		AA9233C314484E1000F40A33 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244512AEE15E00A192F4 /* CFNetwork.framework */; };
+		AA9233C414484E1100F40A33 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244512AEE15E00A192F4 /* CFNetwork.framework */; };
+		AA9233C514484E1B00F40A33 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244712AEE16300A192F4 /* MobileCoreServices.framework */; };
+		AA9233C614484E1C00F40A33 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244712AEE16300A192F4 /* MobileCoreServices.framework */; };
+		AA9233C714484F2000F40A33 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBD435108BC67500C4FD32 /* Security.framework */; };
+		AA9233C814484F2500F40A33 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B3E3F5126F1F60008178BA /* MessageUI.framework */; };
+		AA9233C914484FB100F40A33 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245412AEE1A000A192F4 /* libz.dylib */; };
+		AA9233CA14484FB200F40A33 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245412AEE1A000A192F4 /* libz.dylib */; };
 		E62E983E11A70F4500B56879 /* AccountHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E983C11A70F4500B56879 /* AccountHelp.m */; };
 		E65DB0D911CAF5C500FBF52E /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E65DB0D811CAF5C500FBF52E /* KeychainItemWrapper.m */; };
 		E67B8E5111C83F5E00A31688 /* AuthDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E67B8E4F11C83F5E00A31688 /* AuthDialog.m */; };
@@ -311,12 +320,8 @@
 		F857244812AEE16300A192F4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244712AEE16300A192F4 /* MobileCoreServices.framework */; };
 		F857244A12AEE16800A192F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857244912AEE16800A192F4 /* SystemConfiguration.framework */; };
 		F857244E12AEE17D00A192F4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9511281AFAA00948A57 /* Reachability.m */; };
-		F857245212AEE19800A192F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245112AEE19800A192F4 /* QuartzCore.framework */; };
 		F857245512AEE1A000A192F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245412AEE1A000A192F4 /* libz.dylib */; };
-		F857245D12AEE25400A192F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245C12AEE25400A192F4 /* Foundation.framework */; };
-		F857245F12AEE25700A192F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857245E12AEE25700A192F4 /* UIKit.framework */; };
 		F857246212AEE26B00A192F4 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EEC181281B1CC00948A57 /* ASIAuthenticationDialog.m */; };
-		F857246612AEE28200A192F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F857246512AEE28200A192F4 /* CoreGraphics.framework */; };
 		F85EEB0A1281AFAA00948A57 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9121281AFAA00948A57 /* ASIHTTPRequest.m */; };
 		F85EEB0B1281AFAA00948A57 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9161281AFAA00948A57 /* ASIInputStream.m */; };
 		F85EEB0C1281AFAA00948A57 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9181281AFAA00948A57 /* ASINetworkQueue.m */; };
@@ -326,9 +331,6 @@
 		F85EEB5F1281AFAA00948A57 /* JPAKEReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EE9B81281AFAA00948A57 /* JPAKEReporter.m */; };
 		F85EEBB01281AFAA00948A57 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAE91281AFAA00948A57 /* libcrypto.a */; };
 		F85EEBB11281AFAB00948A57 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEAEA1281AFAA00948A57 /* libssl.a */; };
-		F85EEC091281B19E00948A57 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC081281B19E00948A57 /* CFNetwork.framework */; };
-		F85EEC0E1281B1AF00948A57 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC0D1281B1AF00948A57 /* libz.dylib */; };
-		F85EEC121281B1B600948A57 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85EEC111281B1B600948A57 /* MobileCoreServices.framework */; };
 		F85EEC191281B1CC00948A57 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F85EEC181281B1CC00948A57 /* ASIAuthenticationDialog.m */; };
 		F8781745129EB24E00ADADC8 /* NSString+DecodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F83E0FE7129E155100FE5CF2 /* NSString+DecodingTest.m */; };
 		F8781756129EB25900ADADC8 /* NSData+EncodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F83E0F88129E0CE000FE5CF2 /* NSData+EncodingTest.m */; };
@@ -379,7 +381,6 @@
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* FirefoxHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirefoxHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* Weave_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weave_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -487,7 +488,6 @@
 		4AFBD435108BC67500C4FD32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = /usr/lib/libsqlite3.0.dylib; sourceTree = "<absolute>"; };
 		4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* FFHome-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FFHome-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AA52A5591429A574004B920D /* FirefoxHome-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirefoxHome-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA52A5731429A61E004B920D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Resources-iPad/English.lproj/AboutScreen.xib"; sourceTree = "<group>"; };
@@ -717,6 +717,7 @@
 		AA52A65F1429A61F004B920D /* id */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = id; path = "Resources-iPad/id.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
 		AA52A6601429A61F004B920D /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = "Resources-iPad/cs.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
 		AA52A6611429A61F004B920D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "Resources-iPad/zh-Hans.lproj/EasySetupViewController.xib"; sourceTree = "<group>"; };
+		AA9233BA14484D3D00F40A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E62E983B11A70F4500B56879 /* AccountHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHelp.h; sourceTree = "<group>"; };
 		E62E983C11A70F4500B56879 /* AccountHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountHelp.m; sourceTree = "<group>"; };
 		E65DB0D711CAF5C500FBF52E /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
@@ -956,11 +957,7 @@
 		F857244512AEE15E00A192F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F857244712AEE16300A192F4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F857244912AEE16800A192F4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F857245112AEE19800A192F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F857245412AEE1A000A192F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		F857245C12AEE25400A192F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F857245E12AEE25700A192F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F857246512AEE28200A192F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F85EE90C1281AFAA00948A57 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
 		F85EE9111281AFAA00948A57 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
 		F85EE9121281AFAA00948A57 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
@@ -1054,9 +1051,6 @@
 		F85EEAE71281AFAA00948A57 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		F85EEAE91281AFAA00948A57 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		F85EEAEA1281AFAA00948A57 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		F85EEC081281B19E00948A57 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = iphoneos4.0/System/Library/Frameworks/CFNetwork.framework; sourceTree = "<group>"; };
-		F85EEC0D1281B1AF00948A57 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = iphoneos4.0/usr/lib/libz.dylib; sourceTree = "<group>"; };
-		F85EEC111281B1B600948A57 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = iphoneos4.0/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = "<group>"; };
 		F85EEC171281B1CC00948A57 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		F85EEC181281B1CC00948A57 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		F875D0DC124AB138000BCAC9 /* FFHome-Stefan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FFHome-Stefan-Info.plist"; sourceTree = "<group>"; };
@@ -1096,7 +1090,7 @@
 		F8A7985B128850B900AB5072 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		F8A7985D128850B900AB5072 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		F8A798931288582400AB5072 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		F8B3E3F5126F1F60008178BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = iphoneos4.0/System/Library/Frameworks/MessageUI.framework; sourceTree = "<group>"; };
+		F8B3E3F5126F1F60008178BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F8B4661F12AD9C4000828D26 /* NSData+WeaveKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WeaveKeys.h"; sourceTree = "<group>"; };
 		F8B4662012AD9C4000828D26 /* NSData+WeaveKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WeaveKeys.m"; sourceTree = "<group>"; };
 		F8BDA40B12EA708B008A1164 /* NSData+AESTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESTest.h"; sourceTree = "<group>"; };
@@ -1171,19 +1165,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				4AFBD436108BC67500C4FD32 /* Security.framework in Frameworks */,
 				4AFBD47A108BC68500C4FD32 /* libsqlite3.0.dylib in Frameworks */,
 				4AFBD47C108BC68A00C4FD32 /* QuartzCore.framework in Frameworks */,
-				4AFBD480108BC68F00C4FD32 /* SystemConfiguration.framework in Frameworks */,
 				F8B3E3F6126F1F60008178BA /* MessageUI.framework in Frameworks */,
 				F85EEBB01281AFAA00948A57 /* libcrypto.a in Frameworks */,
 				F85EEBB11281AFAB00948A57 /* libssl.a in Frameworks */,
-				F85EEC091281B19E00948A57 /* CFNetwork.framework in Frameworks */,
-				F85EEC0E1281B1AF00948A57 /* libz.dylib in Frameworks */,
-				F85EEC121281B1B600948A57 /* MobileCoreServices.framework in Frameworks */,
 				F8A798941288582400AB5072 /* libicucore.dylib in Frameworks */,
+				AA9233BB14484D3D00F40A33 /* UIKit.framework in Frameworks */,
+				AA9233C114484DFB00F40A33 /* SystemConfiguration.framework in Frameworks */,
+				AA9233C314484E1000F40A33 /* CFNetwork.framework in Frameworks */,
+				AA9233C514484E1B00F40A33 /* MobileCoreServices.framework in Frameworks */,
+				AA9233C914484FB100F40A33 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1192,19 +1186,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA52A5451429A574004B920D /* Foundation.framework in Frameworks */,
-				AA52A5461429A574004B920D /* UIKit.framework in Frameworks */,
 				AA52A5471429A574004B920D /* CoreGraphics.framework in Frameworks */,
 				AA52A5481429A574004B920D /* Security.framework in Frameworks */,
 				AA52A5491429A574004B920D /* libsqlite3.0.dylib in Frameworks */,
 				AA52A54A1429A574004B920D /* QuartzCore.framework in Frameworks */,
-				AA52A54B1429A574004B920D /* SystemConfiguration.framework in Frameworks */,
 				AA52A54C1429A574004B920D /* MessageUI.framework in Frameworks */,
 				AA52A54D1429A574004B920D /* libcrypto.a in Frameworks */,
 				AA52A54E1429A574004B920D /* libssl.a in Frameworks */,
-				AA52A54F1429A574004B920D /* CFNetwork.framework in Frameworks */,
-				AA52A5501429A574004B920D /* libz.dylib in Frameworks */,
-				AA52A5511429A574004B920D /* MobileCoreServices.framework in Frameworks */,
 				AA52A5521429A574004B920D /* libicucore.dylib in Frameworks */,
+				AA9233BC14484D3D00F40A33 /* UIKit.framework in Frameworks */,
+				AA9233C214484DFC00F40A33 /* SystemConfiguration.framework in Frameworks */,
+				AA9233C414484E1100F40A33 /* CFNetwork.framework in Frameworks */,
+				AA9233C614484E1C00F40A33 /* MobileCoreServices.framework in Frameworks */,
+				AA9233CA14484FB200F40A33 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1216,11 +1210,13 @@
 				F857244612AEE15E00A192F4 /* CFNetwork.framework in Frameworks */,
 				F857244812AEE16300A192F4 /* MobileCoreServices.framework in Frameworks */,
 				F857244A12AEE16800A192F4 /* SystemConfiguration.framework in Frameworks */,
-				F857245212AEE19800A192F4 /* QuartzCore.framework in Frameworks */,
 				F857245512AEE1A000A192F4 /* libz.dylib in Frameworks */,
-				F857245D12AEE25400A192F4 /* Foundation.framework in Frameworks */,
-				F857245F12AEE25700A192F4 /* UIKit.framework in Frameworks */,
-				F857246612AEE28200A192F4 /* CoreGraphics.framework in Frameworks */,
+				AA9233BD14484DA100F40A33 /* CoreGraphics.framework in Frameworks */,
+				AA9233BE14484DB600F40A33 /* UIKit.framework in Frameworks */,
+				AA9233BF14484DC100F40A33 /* Foundation.framework in Frameworks */,
+				AA9233C014484DEF00F40A33 /* QuartzCore.framework in Frameworks */,
+				AA9233C714484F2000F40A33 /* Security.framework in Frameworks */,
+				AA9233C814484F2500F40A33 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1263,26 +1259,18 @@
 		29B97314FDCFA39411CA2CEA /* Weave */ = {
 			isa = PBXGroup;
 			children = (
-				F85EE8DE1281AFAA00948A57 /* ExternalSources */,
-				376EA60110D037CF00D37DD3 /* UserInterface */,
-				F892B79F1284412A00F876B3 /* Utilities */,
-				080E96DDFE201D6D7F000001 /* NetworkAndStorage */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
-				AA52A5701429A574004B920D /* Resources-iPad */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
 				F8A798931288582400AB5072 /* libicucore.dylib */,
 				F83E0F7D129E0CB000FE5CF2 /* Tests-Info.plist */,
+				F85EE8DE1281AFAA00948A57 /* ExternalSources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				080E96DDFE201D6D7F000001 /* NetworkAndStorage */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				AA52A5701429A574004B920D /* Resources-iPad */,
 				F83E0FB1129E0F8500FE5CF2 /* Tests */,
-				F857244512AEE15E00A192F4 /* CFNetwork.framework */,
-				F857244712AEE16300A192F4 /* MobileCoreServices.framework */,
-				F857244912AEE16800A192F4 /* SystemConfiguration.framework */,
-				F857245112AEE19800A192F4 /* QuartzCore.framework */,
-				F857245412AEE1A000A192F4 /* libz.dylib */,
-				F857245C12AEE25400A192F4 /* Foundation.framework */,
-				F857245E12AEE25700A192F4 /* UIKit.framework */,
-				F857246512AEE28200A192F4 /* CoreGraphics.framework */,
+				376EA60110D037CF00D37DD3 /* UserInterface */,
+				F892B79F1284412A00F876B3 /* Utilities */,
 			);
 			name = Weave;
 			sourceTree = "<group>";
@@ -1315,17 +1303,17 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AFBD435108BC67500C4FD32 /* Security.framework */,
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				F857244512AEE15E00A192F4 /* CFNetwork.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				4AFBD479108BC68500C4FD32 /* libsqlite3.0.dylib */,
-				4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */,
-				4AFBD47F108BC68F00C4FD32 /* SystemConfiguration.framework */,
+				F857245412AEE1A000A192F4 /* libz.dylib */,
 				F8B3E3F5126F1F60008178BA /* MessageUI.framework */,
-				F85EEC081281B19E00948A57 /* CFNetwork.framework */,
-				F85EEC0D1281B1AF00948A57 /* libz.dylib */,
-				F85EEC111281B1B600948A57 /* MobileCoreServices.framework */,
+				F857244712AEE16300A192F4 /* MobileCoreServices.framework */,
+				4AFBD47B108BC68A00C4FD32 /* QuartzCore.framework */,
+				4AFBD435108BC67500C4FD32 /* Security.framework */,
+				F857244912AEE16800A192F4 /* SystemConfiguration.framework */,
+				AA9233BA14484D3D00F40A33 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1862,7 +1850,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Weave" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2983,7 +2971,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3006,7 +2994,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3041,7 +3029,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
@@ -3061,7 +3049,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Localize Xibs";
 				SDKROOT = iphoneos;
 			};
@@ -3072,7 +3060,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Localize Xibs";
 				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
@@ -3082,7 +3070,7 @@
 		37CEC8941214ED84001F5DB3 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Localize Xibs";
 				SDKROOT = iphoneos;
 			};
@@ -3105,7 +3093,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -3130,7 +3118,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -3162,7 +3150,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -3191,7 +3179,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -3216,7 +3204,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-iPad-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -3272,7 +3260,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3305,7 +3293,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3337,7 +3325,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3368,7 +3356,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3399,7 +3387,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3453,7 +3441,7 @@
 					JPAKE_DEBUG,
 					OPENSSL_EXPERIMENTAL_JPAKE,
 				);
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3473,7 +3461,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Localize Xibs";
 				SDKROOT = iphoneos;
 			};
@@ -3508,7 +3496,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Weave_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = OPENSSL_EXPERIMENTAL_JPAKE;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../ExternalSources/ios-openssl/include";
 				INFOPLIST_FILE = "FFHome-Stefan-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -3528,7 +3516,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Localize Xibs";
 				SDKROOT = iphoneos;
 			};
